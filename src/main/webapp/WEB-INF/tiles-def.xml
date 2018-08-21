@@ -10,6 +10,7 @@
     <!-- Home pages -->
     <definition name="home" extends="base.definition">
         <put-attribute name="title" value="Home" />
+        <put-attribute name="menu" value="/WEB-INF/views/menu.jsp" />
         <put-attribute name="content" value="/WEB-INF/views/home.jsp" />
         <put-attribute name="footer" value="/WEB-INF/views/footer.jsp" />
     </definition>
@@ -17,7 +18,16 @@
     <!-- Explanation page -->
 <definition name="explanation" extends="base.definition">
     <put-attribute name="title" value="Explanation" />
+    <put-attribute name="menu" value="/WEB-INF/views/menu.jsp" />
     <put-attribute name="content" value="/WEB-INF/views/explanation.jsp" />
+    <put-attribute name="footer" value="/WEB-INF/views/footer.jsp" />
+</definition>
+
+	<!-- About -->
+<definition name="about" extends="base.definition">
+    <put-attribute name="title" value="About" />
+    <put-attribute name="menu" value="/WEB-INF/views/menu.jsp" />
+    <put-attribute name="content" value="/WEB-INF/views/About.jsp" />
     <put-attribute name="footer" value="/WEB-INF/views/footer.jsp" />
 </definition>
 </tiles-definitions>

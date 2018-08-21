@@ -9,6 +9,8 @@
 </head>
 <body>
 	<tiles:importAttribute name="currentPage" scope="request" />
+	<!-- Menu -->
+	<tiles:insertAttribute name="menu" />
  
     <!-- Main -->
     <tiles:insertAttribute name="content" />
